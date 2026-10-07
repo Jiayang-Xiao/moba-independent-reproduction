@@ -1,0 +1,1 @@
+{"status":"PASS","scope":"Offline GitHub mock and real local bare Git push; no real publication","checks":["main matches pushed commit","public repository and Release steps invoked","assets match bytes","retry preserves commit","private data and checkpoints excluded"],"windows_fixture_git_path_normalized":true}

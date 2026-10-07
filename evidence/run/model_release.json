@@ -1,0 +1,7 @@
+{
+  "filename": "model.pt",
+  "sha256": "66ce4dc0194f3373ba1d1bd855200979cbbdc7441dbd11866a58484ea03595f1",
+  "bytes": 79731010,
+  "format": "torch.load(weights_only=True); model state dict and primitive metadata",
+  "publication": "GitHub Release asset; full optimizer checkpoint remains on server"
+}

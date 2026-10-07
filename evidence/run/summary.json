@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETED",
+  "identity": "MOBA_INDEPENDENT_FLOW_V1_20261005",
+  "author_confirmed": false,
+  "metric": "AUROC only",
+  "targets": [
+    {
+      "target": "ped2",
+      "frames": 1962,
+      "AUROC": 0.7842412100209372,
+      "scores_sha256": "60437e40107e878e949deb8ed75ca7efe38662536c24a02df19d91961afd873a",
+      "freeze_sha256": "f405a87db47e005a8a866dc380d9f0401c3ccc112152b54c38f3f3639a4feb04"
+    },
+    {
+      "target": "avenue",
+      "frames": 15240,
+      "AUROC": 0.8521532733365953,
+      "scores_sha256": "2135a15b6e74d909e20354eff66ff2d38b4a93999da7a06b0e5cef87bd0293fa",
+      "freeze_sha256": "f405a87db47e005a8a866dc380d9f0401c3ccc112152b54c38f3f3639a4feb04"
+    }
+  ],
+  "macro_AUROC": 0.8181972416787662,
+  "target_motion_calls": {
+    "motion": 0,
+    "fusion": 0
+  },
+  "checkpoint_sha256": "b9ab48b7e9dfea802f77be736c12c789c79a8366740d3c97bda8c1763ecbbf41",
+  "evaluation_freeze_sha256": "f405a87db47e005a8a866dc380d9f0401c3ccc112152b54c38f3f3639a4feb04",
+  "interpretation": "Provisional independent MoBA-style baseline; no official-reproduction or SOTA claim"
+}

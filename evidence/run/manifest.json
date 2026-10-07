@@ -1,0 +1,77 @@
+{
+  "identity": "MOBA_INDEPENDENT_FLOW_V1_20261005",
+  "files": {
+    "avenue.npz": {
+      "sha256": "2135a15b6e74d909e20354eff66ff2d38b4a93999da7a06b0e5cef87bd0293fa",
+      "bytes": 180386
+    },
+    "data_inventory.json": {
+      "sha256": "865beb7f9c0d060d2408f0b9edf6e9419bdf4e82324733c4300f42b253ce73c7",
+      "bytes": 1037
+    },
+    "avenue.json": {
+      "sha256": "61b81e910b9e5afb5c5732981473a00b40b8ca198a8d06e860632e8a3136f262",
+      "bytes": 249
+    },
+    "train.jsonl": {
+      "sha256": "24f925d58c3459b3483b665becd169332297459ffb175c4ca45d05aa3b75dd97",
+      "bytes": 5290212
+    },
+    "execution_tail.txt": {
+      "sha256": "609999bdb7b764f34d8ceb238b8117a81a61df051fb6f7eed226875c6a2ae376",
+      "bytes": 75744
+    },
+    "preflight.json": {
+      "sha256": "50e85461dfbd41a5d04f9dc51bd65b6bd511ee2cbf187ce7d9fe3e45f72fd8b5",
+      "bytes": 2332
+    },
+    "environment.json": {
+      "sha256": "df7153c72b7b5e2b24c324f29af964cd8309a8cb14b359371faffc170d5b27e3",
+      "bytes": 2069
+    },
+    "summary.json": {
+      "sha256": "3c36a45e22a82fc8c4c43cd0ea9cbc011731aff7fffe4143f66e4da3b0f2f5f6",
+      "bytes": 1104
+    },
+    "ped2.json": {
+      "sha256": "c548ca391aac41da96c8cf0f3fe06de02578e774a97fce8f965941141968cb49",
+      "bytes": 246
+    },
+    "config.json": {
+      "sha256": "81f268527318f323d4781742746c1db163a819ddab7a60612b0423bbda06d6ea",
+      "bytes": 2474
+    },
+    "ped2.npz": {
+      "sha256": "60437e40107e878e949deb8ed75ca7efe38662536c24a02df19d91961afd873a",
+      "bytes": 24105
+    },
+    "model_release.json": {
+      "sha256": "b96123617702b261bdde1b9b285b73682d6e01d9297770dd80da383b5558ea97",
+      "bytes": 302
+    },
+    "source_cache_record.json": {
+      "sha256": "9c490a0bf66dbf233c2809d1b1b01f38d426773059e470cb4484cbf65e44426c",
+      "bytes": 152474
+    },
+    "results.csv": {
+      "sha256": "d778ceef966575c159a1389085ea329cb11c63b9e755301100948a1490544007",
+      "bytes": 167
+    },
+    "trained.json": {
+      "sha256": "b56bcf1387dfe7e4c341cfd623692557ba40938764511a75eced5cae99fb282d",
+      "bytes": 894
+    },
+    "local_checks_server.json": {
+      "sha256": "7331f5c30c7307587c5b1807c0989a0cc2f5c69c9e2ea814b296fb7ea92648ed",
+      "bytes": 1505
+    },
+    "evaluation_freeze.json": {
+      "sha256": "f405a87db47e005a8a866dc380d9f0401c3ccc112152b54c38f3f3639a4feb04",
+      "bytes": 4790
+    }
+  },
+  "recomputed_AUROC": {
+    "ped2": 0.7842412100209372,
+    "avenue": 0.8521532733365953
+  }
+}

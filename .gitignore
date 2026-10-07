@@ -1,0 +1,11 @@
+.private/
+.venv/
+outputs/
+__pycache__/
+*.pyc
+.bootstrap_payload.tar.gz
+.bootstrap_payload.tar
+.publication_payload.tar.gz
+*.pt
+*.pth
+*.pth.tar

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Source cache CLIs build and reuse both videos with unchanged hashes",
+    "Training CLI resumes at batch2, repairs interrupted log line, consumes exactly two full epochs and reuses final fit",
+    "Evaluation CLI preserves RGB-only inference and exact frame/label alignment; cached rerun matches",
+    "Exporter independently recomputes AUROC, reuses matching evidence and produces safely loadable Release weights"
+  ],
+  "scope": "Private synthetic CLI fixture, fake teacher, two tiny source videos; no real-data/teacher/performance claim",
+  "production_modified": false,
+  "epochs": 2,
+  "optimizer_steps": 6
+}

@@ -1,0 +1,27 @@
+{
+  "source": {
+    "root": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/shanghai/training/frames",
+    "videos": 330,
+    "frames": 274515,
+    "windows": 273195,
+    "metadata_sha256": "4aa58344926e2a75837b7401f8d11d86525050cbb79cbcd741d3d45e82dfa7b0"
+  },
+  "targets": {
+    "ped2": {
+      "root": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames",
+      "videos": 12,
+      "frames": 2010,
+      "scored_frames": 1962,
+      "metadata_sha256": "665c1517cc33b1624bbf96891570a517549dfd436af7329b9eac06f10f7d062a",
+      "label_sha256": "229b1561a7b45f6dd694bae837820e92171c97e18243ec8d9693518bc0f33c22"
+    },
+    "avenue": {
+      "root": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames",
+      "videos": 21,
+      "frames": 15324,
+      "scored_frames": 15240,
+      "metadata_sha256": "ecb628aa4760f3cc27f1bc1798305cd36c06be9052ed3e25642a4a50e9814b6d",
+      "label_sha256": "72df559ad321e9a06892cd41f4e6731031d9a8a51c06685f0497bc6b9d3ef5c6"
+    }
+  }
+}

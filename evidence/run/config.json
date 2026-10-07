@@ -1,0 +1,70 @@
+{
+  "identity": "MOBA_INDEPENDENT_FLOW_V1_20261005",
+  "status": "PROVISIONAL_INDEPENDENT_REPRODUCTION_NOT_AUTHOR_CONFIRMED",
+  "seed": 17,
+  "image_size": 256,
+  "input_frames": 4,
+  "channels": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "memory_items": 10,
+  "epochs": 10,
+  "batch_size": 4,
+  "workers": 4,
+  "adam_lr": 0.0002,
+  "adam_betas": [
+    0.9,
+    0.999
+  ],
+  "checkpoint_every_steps": 1000,
+  "log_every_steps": 50,
+  "precision": "float32",
+  "source_flow_cache_dtype": "float16",
+  "source_expected_videos": 330,
+  "targets": {
+    "ped2": {
+      "videos": 12,
+      "scored_frames": 1962
+    },
+    "avenue": {
+      "videos": 21,
+      "scored_frames": 15240
+    }
+  },
+  "score": {
+    "pyramid_levels": 3,
+    "patch": 16,
+    "stride": 1,
+    "smoothing_sigma": 2.0,
+    "normalization": "per_video",
+    "aggregation": "pooled_frame_auroc"
+  },
+  "assumptions": {
+    "zero_conv": "motion + zero_initialized_1x1(motion), identity residual prevents V0 dead path; NOT confirmed by author",
+    "flow_layout": "three consecutive forward two-channel flows stacked as6channels",
+    "future_motion": "FlowNet2(last_RGB,predicted_future_RGB), frozen weights, gradients to RGB prediction",
+    "flow_scaling": "pixel displacement at256x256, no additional scaling",
+    "memory": "uniform initialization, Adam backpropagation, no explicit external update",
+    "architecture": "V0 Figure2-level reconstruction; exact kernels/biases not official",
+    "MRCA": "C64:(3,7),C128:(3,5),C256:(3,3), shared W1/W2, separate gates,r16",
+    "losses": "five unweighted terms, mean reductions, spatial channel cosine",
+    "source_parameters": "SHT Gaussian3/sigma5 and MRCA unchanged on both targets",
+    "training": "10complete source epochs,batch4,epoch cosine; unspecified in accessible paper",
+    "scoring": "3levels error-map average pyramid,16patch stride1,max at each level,sum->PSNR,video minmax,Gaussian sigma2 edge padding; unpublished constants fixed before target evaluation",
+    "first_frames": "discard first4 per video; no cross-video clips",
+    "teacher_backend": "same FlowNet2 weights/network, PyTorch operator port; no bitwise CUDA-kernel equivalence claim"
+  },
+  "constraints": {
+    "source_normal_only": true,
+    "target_training": false,
+    "target_flow": false,
+    "target_memory_updates": false,
+    "target_checkpoint_selection": false,
+    "metric": "AUROC only",
+    "report_bootstrap": false,
+    "zxvad_experiments": false
+  }
+}

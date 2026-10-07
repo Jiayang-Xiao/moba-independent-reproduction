@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "identity": "MOBA_INDEPENDENT_FLOW_V1_20261005",
+  "device": "cuda:0",
+  "checks": [
+    "Correlation displacement order/channel mean/border agrees with independent NumPy oracle and numerical derivatives",
+    "Warp floor-based bilinear/border agrees with NumPy oracle and numerical derivatives",
+    "ChannelNorm exact forward and stabilized CUDA-formula backward at zero",
+    "V1 residual-zero adapter gives finite nonzero motion/zero/memory gradients",
+    "RGB-only target path bypasses motion/fusion and preserves all source state",
+    "AUROC ties and anomaly-score polarity",
+    "Serialized model/optimizer/RNG interruption-resume matches uninterrupted fixture bitwise",
+    "Actual FlowNet2 architecture frozen-weight forward/backward and full256 MoBA candidate backward"
+  ],
+  "v1_gradient_norms": {
+    "zero_conv": 0.10691077262163162,
+    "motion_first_conv": 0.5214176177978516,
+    "memory": 0.01728123426437378
+  },
+  "full_architecture_checks": {
+    "teacher_parameters": 162518834,
+    "output_shape": [
+      1,
+      2,
+      64,
+      64
+    ],
+    "rgb_gradient_norm": 3.653532028198242,
+    "weights": "untrained architecture fixture only",
+    "full_moba_zero_gradient_norm": 0.01660800166428089,
+    "full_moba_motion_first_gradient_norm": 0.08451441675424576
+  },
+  "real_pretrained_teacher_tested_locally": false,
+  "real_datasets_tested_locally": false,
+  "scope": "synthetic implementation tests; no baseline AUROC or official reproduction claim"
+}

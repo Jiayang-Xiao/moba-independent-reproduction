@@ -1,0 +1,7 @@
+{
+  "target": "ped2",
+  "frames": 1962,
+  "AUROC": 0.7842412100209372,
+  "scores_sha256": "60437e40107e878e949deb8ed75ca7efe38662536c24a02df19d91961afd873a",
+  "freeze_sha256": "f405a87db47e005a8a866dc380d9f0401c3ccc112152b54c38f3f3639a4feb04"
+}

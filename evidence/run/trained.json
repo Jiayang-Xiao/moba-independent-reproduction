@@ -1,0 +1,18 @@
+{
+  "status": "TRAINED",
+  "context": {
+    "identity": "MOBA_INDEPENDENT_FLOW_V1_20261005",
+    "config_sha256": "b32f5a30c718e04c095d82c48d1bee92e0f2632ca9e0e2382eac8095db7fb587",
+    "release_sha256": "63842bd0122127db551ab590b7a04905fc95ae5d15a5237653b5ef3b23d9cab9",
+    "source_metadata_sha256": "4aa58344926e2a75837b7401f8d11d86525050cbb79cbcd741d3d45e82dfa7b0",
+    "cache_record_sha256": "9c490a0bf66dbf233c2809d1b1b01f38d426773059e470cb4484cbf65e44426c",
+    "preflight_sha256": "50e85461dfbd41a5d04f9dc51bd65b6bd511ee2cbf187ce7d9fe3e45f72fd8b5",
+    "teacher_sha256": "bc30f54f76aa4c726faada81c9fe5e62da22bfe467f1d65bacd613ba6be53e73"
+  },
+  "epoch_completed": 10,
+  "step": 682990,
+  "windows_per_epoch": 273195,
+  "batch_size": 4,
+  "checkpoint_sha256": "b9ab48b7e9dfea802f77be736c12c789c79a8366740d3c97bda8c1763ecbbf41",
+  "selection": "final source epoch; no target selection"
+}

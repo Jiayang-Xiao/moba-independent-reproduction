@@ -1,0 +1,42 @@
+{
+  "repository": "NVIDIA/flownet2-pytorch",
+  "commit": "bce69c881ad2b11bef1e6ce9fd0dfd45bd8a1756",
+  "files": {
+    "LICENSE": {
+      "git_blob_sha": "80b0d5bd9cbd4888f1dd3562714d9c51d77eabea",
+      "sha256": "3f934603bb257d18ee381007ad737ef098e91113442295f8ab47142e2371444a"
+    },
+    "__init__.py": {
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "models.py": {
+      "git_blob_sha": "8457d2f49af79b2d26aae5942ab788f0b0e4de61",
+      "sha256": "e0f178ca6f3271199773af91a86c6b55ed4ec4ff2415b752b67cd754a2f98352"
+    },
+    "networks/__init__.py": {
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "networks/FlowNetC.py": {
+      "git_blob_sha": "61e117a19e4ab9cac102481b6df5a152291f251c",
+      "sha256": "837f5064070aa6f58069639dca94036acf03153bf69867be0224e938b044920b"
+    },
+    "networks/FlowNetS.py": {
+      "git_blob_sha": "b32951a58a4df0064ac0dbcaf2c3350bc7856d74",
+      "sha256": "f3bf45f2518d6793b0005b0370b686bd7ce0147dbbda4a9bd77e506afbffb092"
+    },
+    "networks/FlowNetSD.py": {
+      "git_blob_sha": "be1ea6b34a09b21f39674e29dc1765d5a1f22617",
+      "sha256": "3f6d52a7c4bb61d36b68f799ced71e629c118a13b136b3a9d7ceed2b3ae35741"
+    },
+    "networks/FlowNetFusion.py": {
+      "git_blob_sha": "668423b6eb63b9ccbcf83c7d62c1905e90021131",
+      "sha256": "54f3b8ab985c784cb42073ce87cce03cb3abacc71327875953ddcd28fc5e0c43"
+    },
+    "networks/submodules.py": {
+      "git_blob_sha": "28b35bbf1763ea1be449c9a3ac0c9868cc27d565",
+      "sha256": "8b819eb001482c24cf12bd58e9c691ce63ac5d2cb9f711167b5ab71ba10ec880"
+    }
+  }
+}

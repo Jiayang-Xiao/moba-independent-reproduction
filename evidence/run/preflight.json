@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "identity": {
+    "config_sha256": "b32f5a30c718e04c095d82c48d1bee92e0f2632ca9e0e2382eac8095db7fb587",
+    "release_sha256": "63842bd0122127db551ab590b7a04905fc95ae5d15a5237653b5ef3b23d9cab9",
+    "data": {
+      "source": {
+        "root": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/shanghai/training/frames",
+        "videos": 330,
+        "frames": 274515,
+        "windows": 273195,
+        "metadata_sha256": "4aa58344926e2a75837b7401f8d11d86525050cbb79cbcd741d3d45e82dfa7b0"
+      },
+      "targets": {
+        "ped2": {
+          "root": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/ped2/testing/frames",
+          "videos": 12,
+          "frames": 2010,
+          "scored_frames": 1962,
+          "metadata_sha256": "665c1517cc33b1624bbf96891570a517549dfd436af7329b9eac06f10f7d062a",
+          "label_sha256": "229b1561a7b45f6dd694bae837820e92171c97e18243ec8d9693518bc0f33c22"
+        },
+        "avenue": {
+          "root": "/home/xjy/strict_zs_cross_domain_vad/third_party/MPN/data/avenue/testing/frames",
+          "videos": 21,
+          "frames": 15324,
+          "scored_frames": 15240,
+          "metadata_sha256": "ecb628aa4760f3cc27f1bc1798305cd36c06be9052ed3e25642a4a50e9814b6d",
+          "label_sha256": "72df559ad321e9a06892cd41f4e6731031d9a8a51c06685f0497bc6b9d3ef5c6"
+        }
+      }
+    },
+    "teacher_sha256": "bc30f54f76aa4c726faada81c9fe5e62da22bfe467f1d65bacd613ba6be53e73"
+  },
+  "source_preflight_optimizer_steps": 1,
+  "preflight_model_discarded": true,
+  "target_images_accessed_for_training": 0,
+  "gradient_norms": {
+    "zero_conv": 0.025099851191043854,
+    "motion_first_conv": 0.1513538509607315,
+    "memory": 0.05654614418745041,
+    "rgb_output": 68.91094207763672
+  },
+  "motion_to_rgb_gradient_norm": 0.7631574869155884,
+  "losses": {
+    "pred": 0.1467823088169098,
+    "grad": 0.4115738868713379,
+    "sim": 0.9836130142211914,
+    "motion": 0.42100489139556885,
+    "comp": 0.16270989179611206
+  },
+  "elapsed_seconds": 1.2954470310360193,
+  "environment": {
+    "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+    "torch": "2.4.1",
+    "numpy": "2.2.6",
+    "cuda": "12.1",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "platform": "Linux-5.13.0-30-generic-x86_64-with-glibc2.39"
+  },
+  "author_confirmed": false
+}
